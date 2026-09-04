@@ -74,9 +74,9 @@ Restaurant populateRestaurant() {
 void displayRestaurant(const Restaurant& restaurant) {
     cout << "\nRestaurant Information:\n";
     cout << "Name: " << restaurant.name << endl;
-    cout << "\nAddress: " << restaurant.address << endl;
-    cout << "\nRating: " << restaurant.rating << endl;
-    cout << "\nPrice Level: " << restaurant.priceLevel << endl;
-    cout << "\nParking Available: " << (restaurant.parkingAvailable ? "Yes" : "No") << endl;
-    cout << "\nTakeout Available: " << (restaurant.takeoutAvailable ? "Yes" : "No") << endl;
+    cout << "Address: " << restaurant.address << endl;
+    cout << "Rating: " << restaurant.rating << endl;
+    cout << "Price Level: " << restaurant.priceLevel << endl;
+    cout << "Parking Available: " << (restaurant.parkingAvailable ? "Yes" : "No") << endl;
+    cout << "Takeout Available: " << (restaurant.takeoutAvailable ? "Yes" : "No") << endl;
 }
